@@ -1,0 +1,54 @@
+<svg viewBox="0 0 900 420" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif">
+  <style>
+    .box { fill: #ffffff; stroke: #2563eb; stroke-width: 2; rx: 8; }
+    .fact { fill: #eff6ff; stroke: #1d4ed8; stroke-width: 2.5; rx: 8; }
+    .title { font-weight: bold; font-size: 15px; fill: #1e3a8a; }
+    .col { font-size: 12px; fill: #334155; }
+    .pk { font-weight: bold; fill: #b91c1c; }
+    .rel { stroke: #64748b; stroke-width: 1.5; fill: none; }
+    .label { font-size: 11px; fill: #475569; }
+  </style>
+
+  <!-- Customers -->
+  <rect x="30" y="30" width="200" height="140" class="box"/>
+  <text x="130" y="55" text-anchor="middle" class="title">Customers</text>
+  <text x="45" y="80" class="col pk">CustomerID (PK)</text>
+  <text x="45" y="98" class="col">FirstName, LastName</text>
+  <text x="45" y="116" class="col">CustomerEmail</text>
+  <text x="45" y="134" class="col">CustomerCity, State, Zip</text>
+  <text x="45" y="152" class="col">CustomerPhone</text>
+
+  <!-- Orders (fact) -->
+  <rect x="350" y="140" width="200" height="140" class="fact"/>
+  <text x="450" y="165" text-anchor="middle" class="title">Orders (Fact)</text>
+  <text x="365" y="190" class="col pk">OrderID (PK)</text>
+  <text x="365" y="208" class="col">Date</text>
+  <text x="365" y="226" class="col">CustomerID (FK)</text>
+  <text x="365" y="244" class="col">ProdNumber (FK)</text>
+  <text x="365" y="262" class="col">Quantity</text>
+
+  <!-- Products -->
+  <rect x="670" y="30" width="200" height="120" class="box"/>
+  <text x="770" y="55" text-anchor="middle" class="title">Products</text>
+  <text x="685" y="80" class="col pk">ProdNumber (PK)</text>
+  <text x="685" y="98" class="col">ProdName</text>
+  <text x="685" y="116" class="col">Category (FK)</text>
+  <text x="685" y="134" class="col">Price</text>
+
+  <!-- ProductCategory -->
+  <rect x="670" y="270" width="200" height="110" class="box"/>
+  <text x="770" y="295" text-anchor="middle" class="title">ProductCategory</text>
+  <text x="685" y="320" class="col pk">CategoryID (PK)</text>
+  <text x="685" y="338" class="col">CategoryName</text>
+  <text x="685" y="356" class="col">CategoryAbbreviation</text>
+
+  <!-- Relations -->
+  <path d="M230,100 L350,180" class="rel"/>
+  <text x="255" y="130" class="label">1 : N</text>
+
+  <path d="M550,190 L670,90" class="rel"/>
+  <text x="600" y="130" class="label">N : 1</text>
+
+  <path d="M770,150 L770,270" class="rel"/>
+  <text x="780" y="215" class="label">N : 1</text>
+</svg>
