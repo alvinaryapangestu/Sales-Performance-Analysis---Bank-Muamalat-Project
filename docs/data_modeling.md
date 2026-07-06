@@ -28,7 +28,7 @@ Customers (1) ────────< (N) Orders (N) >────────
 
 ## 3. Diagram ERD (visual)
 
-> ![ERD](screenshots/erd.png)
+> ![ERD](https://github.com/alvinaryapangestu/Sales-Performance-Analysis---Bank-Muamalat-Project/blob/8ca529db24ca09bff0d901346adb9e678c6274e8/docs/screenshots/erd.svg)
 
 ## 4. Kesimpulan
 
