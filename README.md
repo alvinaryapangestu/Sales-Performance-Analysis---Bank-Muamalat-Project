@@ -1,6 +1,58 @@
 # Sales-Performance-Analysis---Bank-Muamalat-Project
 Sales performance analysis &amp; interactive dashboard using SQL (BigQuery) and Looker Studio — completed as part of BI Analyst Virtual Internship at Bank Muamalat x Rakamin Academy.
 
+[![SQL](https://img.shields.io/badge/SQL-BigQuery-4285F4?logo=googlebigquery&logoColor=white)](https://cloud.google.com/bigquery)
+[![Dashboard](https://img.shields.io/badge/Dashboard-Looker%20Studio-4B0082?logo=looker&logoColor=white)](https://lookerstudio.google.com)
+[![Status](https://img.shields.io/badge/status-completed-brightgreen)]()
+
+## 📌 Overview
+
+Project ini adalah studi kasus **Business Intelligence Analyst** untuk PT Sejahtera
+Bersama (perusahaan fiktif dalam simulasi), menggunakan data transaksi penjualan
+e-commerce. Tugas mencakup **data modeling, transformasi data (SQL), visualisasi
+dashboard, hingga rekomendasi bisnis** berbasis insight yang ditemukan.
+
+Dikerjakan sebagai bagian dari **Virtual Internship Experience (VIX) Bank Muamalat**
+yang diselenggarakan oleh **Rakamin Academy**.
+
+## 🎯 Business Problem
+
+Perusahaan memiliki data transaksi mentah tersebar di 4 tabel terpisah (Customer,
+Products, Orders, ProductCategory) dan membutuhkan:
+1. Pemahaman struktur & relasi data (data modeling)
+2. Master table terkonsolidasi untuk kebutuhan reporting
+3. Dashboard visual untuk monitoring performa penjualan
+4. Rekomendasi strategi berbasis data untuk mempertahankan/menaikkan penjualan
+
+## 🛠️ Tools & Skills
+
+| Kategori | Tools/Skills |
+|---|---|
+| Data Warehouse | Google BigQuery |
+| Query Language | SQL (JOIN, Aggregation, Regex) |
+| Visualization | Looker Studio |
+| Data Modeling | Star Schema, ERD |
+| Analysis | Business Insight & Recommendation |
+
+## 📂 Struktur Repository
+
+```
+sales-performance-analysis-bank-muamalat/
+├── data/
+│   ├── raw/                  -> dataset asli (Customers, Products, Orders, ProductCategory)
+│   └── processed/             -> master_table_penjualan.csv (hasil transformasi)
+├── sql/
+│   ├── 01_primary_key_check.sql
+│   └── 02_master_table.sql
+├── dashboard/
+│   └── README.md              -> link & dokumentasi dashboard Looker Studio
+├── docs/
+│   ├── data_modeling.md       -> penjelasan ERD & relationship
+│   ├── business_recommendation.md
+│   └── screenshots/
+└── README.md                  -> file ini
+```
+
 ## 🔍 Proses Analisis
 
 ### 1. Data Modeling
