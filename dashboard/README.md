@@ -16,6 +16,4 @@
 
 ## Screenshot
 
-> Simpan screenshot dashboard final di `docs/screenshots/dashboard.png`, lalu tampilkan:
-
-> ![Dashboard](../docs/screenshots/dashboard.png)
+> ![Dashboard](docs/screenshots/sales performance dashboard.png)
