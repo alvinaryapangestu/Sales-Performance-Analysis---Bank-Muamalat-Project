@@ -7,12 +7,10 @@ Sales performance analysis &amp; interactive dashboard using SQL (BigQuery) and 
 
 ## 📌 Overview
 
-Project ini adalah studi kasus **Business Intelligence Analyst** untuk PT Sejahtera
-Bersama (perusahaan fiktif dalam simulasi), menggunakan data transaksi penjualan
-e-commerce. Tugas mencakup **data modeling, transformasi data (SQL), visualisasi
+Project ini adalah studi kasus **Business Intelligence Analyst** untuk final project virtual based internship bank muamalat, menggunakan data transaksi penjualan e-commerce. Tugas mencakup **data modeling, transformasi data (SQL), visualisasi
 dashboard, hingga rekomendasi bisnis** berbasis insight yang ditemukan.
 
-Dikerjakan sebagai bagian dari **Virtual Internship Experience (VIX) Bank Muamalat**
+Dikerjakan sebagai bagian dari **Virtual Internship Experience  Bank Muamalat**
 yang diselenggarakan oleh **Rakamin Academy**.
 
 ## 🎯 Business Problem
@@ -76,7 +74,7 @@ lengkap & rekomendasi strategis: [`docs/business_recommendation.md`](docs/busine
 
 ## 📈 Key Insights (Ringkas)
 
-- 💰 Total Sales: **1.754.750,57**
+- 💰 Total Sales: **1.754.751**
 - 📦 Total Qty Terjual: **11.654 unit**
 - 🏆 Kategori kontribusi sales tertinggi: **Robots**
 - 📚 Kategori volume terjual tertinggi: **eBooks**
@@ -84,7 +82,7 @@ lengkap & rekomendasi strategis: [`docs/business_recommendation.md`](docs/busine
 
 ## 🔗 Live Dashboard
 
-👉 [Lihat Dashboard Interaktif di Looker Studio](ISI-LINK-DI-SINI)
+👉 [Lihat Dashboard Interaktif di Looker Studio](https://datastudio.google.com/reporting/df440d53-1cb3-4eee-a6e4-7366457a184e)
 
 ## 🎥 Video Presentasi
 
@@ -94,7 +92,7 @@ lengkap & rekomendasi strategis: [`docs/business_recommendation.md`](docs/busine
 
 **Alvin Arya Pangestu**
 Fresh Graduate — Informatika, Universitas Darussalam Gontor
-[LinkedIn](#) • [Portfolio](#)
+[LinkedIn](www.linkedin.com/in/alvinaryapangestu) 
 
 ---
 *Project ini dibuat sebagai bagian dari Virtual Internship Experience (VIX)
