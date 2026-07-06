@@ -37,7 +37,7 @@ Products, Orders, ProductCategory) dan membutuhkan:
 ## 📂 Struktur Repository
 
 ```
-Sales Performance Analysis-Bank Muamalat Project/
+Sales-Performance-Analysis---Bank-Muamalat-Project/
 ├── data/
 │   ├── raw/                  -> dataset asli (Customers, Products, Orders, ProductCategory)
 │   └── processed/             -> master_table_penjualan.csv (hasil transformasi)
